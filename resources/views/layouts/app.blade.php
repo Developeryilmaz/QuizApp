@@ -10,7 +10,7 @@
         <!-- Fonts -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
-        <!-- Styles d-->
+        <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
         @livewireStyles
@@ -35,13 +35,7 @@
 
             <!-- Page Content -->
             <main>
-                <div class="py-6">
-                    <div class="max-w-7xl mx-auto sm:p-3 lg:px-8">
-                        <div class="container mx-auto w-1/2">
-                            {{ $slot }}
-                        </div>
-                    </div>
-                </div>
+                {{ $slot }}
             </main>
         </div>
 
